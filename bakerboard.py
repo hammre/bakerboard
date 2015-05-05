@@ -14,6 +14,7 @@ game = sys.stdout
 game.write( '\n'.join( ('title BakerBoard %s' % naostring,
                         'strict-trade',
                         'domestic-trade',
+                        'check-victory-at-end-of-turn',
                         'num-players 4',
                         'sevens-rule 1',
                         'victory-points 10',

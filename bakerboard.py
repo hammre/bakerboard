@@ -11,7 +11,7 @@ naostring = "%04d-%02d-%02d %02d:%02d" % ( nao.year, nao.month, nao.day, nao.hou
 naofile = "%04d%02d%02d%02d%02d" % ( nao.year, nao.month, nao.day, nao.hour, nao.minute )
 
 game = sys.stdout
-game.write( '\n'.join( ('title BakerBoard %s' % naostring,
+game.write( '\n'.join( ('title BakerBoard',
                         'domestic-trade',
                         'check-victory-at-end-of-turn',
                         'num-players 4',

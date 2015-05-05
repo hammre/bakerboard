@@ -12,7 +12,6 @@ naofile = "%04d%02d%02d%02d%02d" % ( nao.year, nao.month, nao.day, nao.hour, nao
 
 game = sys.stdout
 game.write( '\n'.join( ('title BakerBoard %s' % naostring,
-                        'strict-trade',
                         'domestic-trade',
                         'check-victory-at-end-of-turn',
                         'num-players 4',
